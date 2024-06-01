@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">GreenSentry</string>
+        <string name="text_content">Text Content</string>
+        <string name="classification">classification</string>
+        <string name="Donasi">Donasi</string>
+        <string name="tentang_kami">Tentang Kami</string>
+        <string name="aksi_kami">Aksi Kami</string>
+        <string name="gallery">Galeri</string>
+        <string name="analyze">Analisis</string>
+        <string name="result">Hasil</string>
+        <string name="greensentry">GreenSentry</string>
+        <string name="about">Tentang</string>
+        <string name="text_headbar">Tentang Kami Dan Komitmen Kami</string>
+        <string name="pengertian">Sebuah organisasi yang bergerak dalam memberikan edukasi dan mengajak semua pihak untuk mendukung dan melestarikan lingkungan alam serta mendukung pengelolaan sampah yang kreatif</string>
+        <string name="visi">Visi</string>
+        <string name="visi_text">Mewujudkan lingkungan alam yang lestari dan harmonis melalui peran serta aktif seluruh masyarakat dalam upaya pelestarian dan perlindungan alam.</string>
+        <string name="misi">Misi</string>
+        <string name="misi_text">Memberikan program pendidikan yang komprehensif untuk meningkatkan kesadaran masyarakat akan pentingnya menjaga dan melestarikan lingkungan hidup, Melaksanakan kampanye luas untuk mengajak masyarakat berpartisipasi dalam aksi nyata yang mendukung kelestarian lingkungan, Membentuk kemitraan dengan berbagai pihak, termasuk pemerintah, sektor swasta, dan komunitas lokal untuk bersama-sama mengembangkan solusi berkelanjutan bagi masalah lingkungan.</string>
+        <string name="our_team">Team Kami</string>
+        <string name="muhammad_raihan_al_fuady_ml">- Muhammad Raihan Al Fuady (Machine Elearning)</string>
+        <string name="henny_gloria_datubara">- Henny Gloria Datubara (Machine Elearning)</string>
+        <string name="muhammad_burhanudin">- Muhammad Burhanudin (Claud Computing)</string>
+        <string name="muhamad_rizky_ramadhana">- Muhamad Rizky Ramadhana (Cloud Computing)</string>
+        <string name="divo_rio_gilang">- Divo Rio Gilang (Mobile Developer)</string>
+        <string name="wildan_mutasim_billah">- Wildan Mutasim Billah (Mobile Developer)</string>
+        <string name="language">Choose Language</string>
+        <string name="no_rek">Mandiri : 1780006201855 a.n M.BURHANUDIN</string>
+        <string name="confirm">Confirm</string>
+        <string name="text_confirm">Please confirm and include proof of transfer below</string>
+</resources>

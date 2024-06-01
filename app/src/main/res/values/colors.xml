@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warna hijau muda -->
+    <color name="light_green">#8BC34A</color>
+
+    <!-- Warna hijau -->
+    <color name="green">#4CAF50</color>
+
+    <!-- Warna hijau tua -->
+    <color name="dark_green">#388E3C</color>
+
+    <!-- Warna hijau lainnya -->
+    <color name="lime_green">#CDDC39</color>
+    <color name="forest_green">#2E7D32</color>
+    <color name="olive_green">#827717</color>
+    <color name="mint_green">#98FF98</color>
+    <color name="sea_green">#2E8B57</color>
+    <color name="emerald_green">#50C878</color>
+</resources>

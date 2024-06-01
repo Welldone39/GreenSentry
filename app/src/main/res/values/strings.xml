@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GreenSentry</string>
+    <string name="text_content">Text Content</string>
+    <string name="classification">classification</string>
+    <string name="Donasi">Donasi</string>
+    <string name="tentang_kami">About Us</string>
+    <string name="aksi_kami">Our Action</string>
+    <string name="gallery">Gallery</string>
+    <string name="analyze">Analyze\n</string>
+    <string name="result">Result</string>
+    <string name="greensentry">GreenSentry</string>
+    <string name="about">About</string>
+    <string name="text_headbar">About Us And Our Commitment</string>
+    <string name="pengertian">An organization that operates in providing education and inviting all parties to support and preserve the natural environment and support creative waste management</string>
+    <string name="visi">Visi</string>
+    <string name="visi_text">Realizing a sustainable and harmonious natural environment through the active participation of the entire community in efforts to preserve and protect nature.</string>
+    <string name="misi">Misi</string>
+    <string name="misi_text">Providing comprehensive educational programs to increase public awareness of the importance of protecting and preserving the environment, Carrying out extensive campaigns to invite the public to participate in real actions that support environmental sustainability, Forming partnerships with various parties, including the government, private sector and local communities to work together together to develop sustainable solutions to environmental problems.</string>
+    <string name="our_team">Our Team</string>
+    <string name="muhammad_raihan_al_fuady_ml">- Muhammad Raihan Al Fuady (Machine Elearning)</string>
+    <string name="henny_gloria_datubara">- Henny Gloria Datubara (Machine Elearning)</string>
+    <string name="muhammad_burhanudin">- Muhammad Burhanudin (Claud Computing)</string>
+    <string name="muhamad_rizky_ramadhana">- Muhamad Rizky Ramadhana (Cloud Computing)</string>
+    <string name="divo_rio_gilang">- Divo Rio Gilang (Mobile Developer)</string>
+    <string name="wildan_mutasim_billah">- Wildan Mutasim Billah (Mobile Developer)</string>
+    <string name="language">Choose Language</string>
+    <string name="no_rek">Mandiri : 1780006201855 a.n M.BURHANUDIN</string>
+    <string name="confirm">Confirm</string>
+    <string name="text_confirm">Please confirm and include proof of transfer below</string>
+</resources>
