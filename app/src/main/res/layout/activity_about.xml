@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/forest_green">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -49,12 +50,13 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="134dp"
-                tools:src="@drawable/logo_greensentry" />
+                android:src="@drawable/logo_greensentry"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/greensentry">
 
                 <TextView
                     android:id="@+id/name_title"
@@ -72,7 +74,8 @@
                     android:layout_marginStart="16dp"
                     android:text="@string/pengertian"
                     android:textColor="@color/white"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:autoSizeTextType="uniform"/>
 
             </LinearLayout>
 
@@ -89,10 +92,11 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/visi">
 
                 <TextView
-                    android:id="@+id/visi"
+                    android:id="@+id/judulVisi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -107,7 +111,8 @@
                     android:layout_marginStart="16dp"
                     android:text="@string/visi_text"
                     android:textColor="@color/white"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:autoSizeTextType="uniform"/>
 
             </LinearLayout>
 
@@ -125,10 +130,11 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/misi">
 
                 <TextView
-                    android:id="@+id/misi"
+                    android:id="@+id/judulmisi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -144,7 +150,8 @@
                     android:layout_marginStart="16dp"
                     android:text="@string/misi_text"
                     android:textColor="@color/white"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:autoSizeTextType="uniform"/>
 
             </LinearLayout>
 
@@ -162,7 +169,8 @@
             <LinearLayout
                 android:layout_width="386dp"
                 android:layout_height="186dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/ourTeam">
 
                 <TextView
                     android:id="@+id/team"
