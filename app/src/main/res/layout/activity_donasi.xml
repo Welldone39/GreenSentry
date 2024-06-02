@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/norek_text" />
 
     <Button
-        android:id="@+id/galleryButton"
+        android:id="@+id/konfirmasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/dark_green"
