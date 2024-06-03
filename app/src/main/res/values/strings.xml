@@ -17,9 +17,9 @@
     <string name="misi">Misi</string>
     <string name="misi_text">Providing comprehensive educational programs to increase public awareness of the importance of protecting and preserving the environment, Carrying out extensive campaigns to invite the public to participate in real actions that support environmental sustainability, Forming partnerships with various parties, including the government, private sector and local communities to work together together to develop sustainable solutions to environmental problems.</string>
     <string name="our_team">Our Team</string>
-    <string name="muhammad_raihan_al_fuady_ml">- Muhammad Raihan Al Fuady (Machine Elearning)</string>
-    <string name="henny_gloria_datubara">- Henny Gloria Datubara (Machine Elearning)</string>
-    <string name="muhammad_burhanudin">- Muhammad Burhanudin (Claud Computing)</string>
+    <string name="muhammad_raihan_al_fuady_ml">- Muhammad Raihan Al Fuady (Machine learning)</string>
+    <string name="henny_gloria_datubara">- Henny Gloria Datubara (Machine learning)</string>
+    <string name="muhammad_burhanudin">- Muhammad Burhanudin (Cloud Computing)</string>
     <string name="muhamad_rizky_ramadhana">- Muhamad Rizky Ramadhana (Cloud Computing)</string>
     <string name="divo_rio_gilang">- Divo Rio Gilang (Mobile Developer)</string>
     <string name="wildan_mutasim_billah">- Wildan Mutasim Billah (Mobile Developer)</string>
@@ -27,4 +27,6 @@
     <string name="no_rek">Mandiri : 1780006201855 a.n M.BURHANUDIN</string>
     <string name="confirm">Confirm</string>
     <string name="text_confirm">Please confirm and include proof of transfer below</string>
+    <string name="failed_to_pick_image">Coba kembali</string>
+    <string name="crop_error">crop error</string>
 </resources>

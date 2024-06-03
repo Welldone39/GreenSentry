@@ -10,7 +10,7 @@
 
 
     <item
-        android:id="@+id/donasi"
+        android:id="@+id/Donasi"
         android:title="@string/Donasi"
         app:showAsAction="never"/>
 
