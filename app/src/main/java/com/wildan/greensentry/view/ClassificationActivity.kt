@@ -3,17 +3,15 @@ package com.wildan.greensentry
 import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
-import com.yalantis.ucrop.UCrop
+import androidx.appcompat.app.AppCompatActivity
 import com.wildan.greensentry.databinding.ActivityClassificationBinding
 import com.wildan.greensentry.imageclassifier.ImageClassifierHelper
-import com.wildan.greensentry.imageclassifier.ImageClassifierHelper.ClassifierListener
-import org.tensorflow.lite.task.vision.detector.Detection
+import com.yalantis.ucrop.UCrop
 import java.io.File
 
 class ClassificationActivity : AppCompatActivity(), ImageClassifierHelper.ClassifierListener {
@@ -106,15 +104,15 @@ class ClassificationActivity : AppCompatActivity(), ImageClassifierHelper.Classi
         showToast(message)
     }
 
-    override fun onResults(results: List<Detection>?, inferenceTime: Long) {
+    override fun onResults(resultLabel: String?, inferenceTime: Long) {
         binding.progressIndicator.visibility = View.GONE
-        results?.forEach { detection ->
-            val category = detection.categories.firstOrNull()
-            category?.let {
-                showToast("Detected: ${it.label}, Confidence: ${it.score}")
-            }
+        val resultString = "Detected waste type: $resultLabel (in $inferenceTime ms)"
+
+        // Intent to ResultActivity
+        val intent = Intent(this, ResultActivity::class.java).apply {
+            putExtra(ResultActivity.EXTRA_IMAGE, currentImageUri.toString())
+            putExtra(ResultActivity.EXTRA_PREDICTION, resultString)
         }
-        showToast("Inference time: $inferenceTime ms")
+        startActivity(intent)
     }
 }
-

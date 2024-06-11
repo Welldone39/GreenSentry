@@ -43,9 +43,10 @@
         android:id="@+id/result_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="32dp"
         android:text="@string/result"
         android:gravity="center"
+        android:textSize="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageWrapper"/>

@@ -2,13 +2,13 @@ package com.wildan.greensentry
 
 import android.animation.ObjectAnimator
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.wildan.greensentry.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         aboutButton = findViewById(R.id.aboutButton)
         aboutButton.setOnClickListener(this)
 
-        aboutClassification = findViewById(R.id.classificationButton)
+        aboutClassification = findViewById(R.id.classificationBtn)
         aboutClassification.setOnClickListener(this)
         playAnimation()
     }
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(aboutAct)
             }
 
-            R.id.classificationButton -> {
+            R.id.classificationBtn -> {
                 val Classification = Intent(this@MainActivity, ClassificationActivity::class.java)
                 startActivity(Classification)
             }
@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         }
 
-        val fadeInAnimation2 = ObjectAnimator.ofFloat(binding.classificationButton, View.ALPHA, 0f, 1f).apply {
+        val fadeInAnimation2 = ObjectAnimator.ofFloat(binding.classificationBtn, View.ALPHA, 0f, 1f).apply {
             duration = 1000 // Durasi animasi dalam milidetik (ms)
 
         }
