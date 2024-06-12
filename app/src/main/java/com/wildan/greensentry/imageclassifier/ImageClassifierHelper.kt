@@ -26,10 +26,8 @@ class ImageClassifierHelper(
     private var inputImageBuffer: TensorImage? = null
     private var outputBuffer: TensorBuffer? = null
 
-    // Define labels directly in the code
-    private val labels = listOf(
-        "Plastik", "Kertas", "Kaca", "Logam", "Organik", "Baterai", "Elektronik"
-    )
+    // Define labels for two categories: Organik and Non Organik
+    private val labels = listOf("Organik", "Non Organik")
 
     init {
         setupInterpreter()
